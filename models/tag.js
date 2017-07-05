@@ -9,7 +9,7 @@ module.exports = function(sequelize, DataTypes) {
       as: "Blogs",
       through: "blog_tags",
       foreignKey: "tag_id"
-    })
+    });
   };
   return Tag;
 };
